@@ -8,6 +8,11 @@ directional vibration responses. A reliability-guided fusion module combines the
 two prototype branches and applies weak gear-condition calibration for
 cross-tooth-profile target adaptation.
 
+PSDA-RFNet.zip uses the original CSV data to perform the complete workflow, including data preprocessing, physical-band extraction, model training, and testing. Due to privacy restrictions, the current CSV data cannot be made publicly available. Once the manuscript is accepted, the complete collected data will be released.
+
+PSDA-RFNet-github stores the processed physical-band data in NPZ format. The model training and testing programs can be run directly using these files to verify the reproducibility and authenticity of the manuscript.
+The following provides the usage instructions for running the code without CSV data.
+
 **Pre-processed data version** — no raw CSV or signal processing required. All
 training data is pre-computed as .npz files under `dataset/`.
 
