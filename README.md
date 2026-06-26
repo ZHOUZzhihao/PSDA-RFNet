@@ -1,6 +1,6 @@
-# Dual-Branch Diagnosis Network
+# PSDA-RFNet
 
-Dual-branch spectral-directional attention network with reliability-guided fusion for cross-gear few-shot fault diagnosis.
+A Transmission-Physics-Guided Spectral-Directional Dual-Attention and Reliability-Fusion Network for Cross-Gear-Type Mixed-Load Fault Diagnosis
 
 The method organizes order spectra into five transmission-related physical bands,
 then learns complementary representations from spectral structures and
